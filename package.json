@@ -1,7 +1,7 @@
 {
   "name": "spicy-react-dom",
   "version": "16.8.4",
-  "description": "React package for working with the DOM.",
+  "description": "Spicy react package for working with the DOM.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facebook/react/issues"
+    "url": "https://github.com/btford/spicy-react-dom/issues"
   },
   "dependencies": {
     "loose-envify": "^1.1.0",
@@ -21,7 +21,10 @@
     "scheduler": "^0.13.4"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.8.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-utils": "^1.8.0",
+    "react-test-renderer": "^16.8.6"
   },
   "files": [
     "LICENSE",
